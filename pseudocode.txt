@@ -1,0 +1,18 @@
+actions:
+
+    index (GET all flats)
+
+    new (GET form for new flat with name and address) &
+
+    create (POST the new flat)
+
+    show (GET an specific flat's info by :id)
+
+    edit (GET a form with an specific flat's info by :id) &
+
+    update (PATCH specific flat new info by :id)
+
+    destroy (DELETE specific flat by :id)
+
+
+
